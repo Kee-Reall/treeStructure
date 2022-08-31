@@ -1,0 +1,90 @@
+table {
+    border-collapse: collapse;
+    margin: 15px;
+    width: 297px;
+    background: #F1F9FF;
+    border: 1.1px solid #2E465C;
+    border-radius: 2px;
+    thead{
+        width: 297px;
+        height: 67px;
+        tr{
+            &:nth-child(1){
+                td{
+                    &:nth-child(1){
+                        font-style: SemiBold;
+                        font-size: 18px;
+                        line-height: 21px;
+                        line-height: 100%;
+                        vertical-align: Top;
+                        color: #2B455C
+                    }
+                    &:nth-last-child(1){
+                        border-bottom: 1px solid black;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 16px;
+                        color: #2B455C;
+                        text-align: center;                        
+                    }
+                }
+            }
+            &:nth-last-child(1){
+                td{
+                    border-bottom: 1px solid black;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #2B455C;
+                }
+                
+            }
+        }
+    }
+    tbody{
+        tr{
+            td{
+                border-bottom: 1px solid #9CD0FF;
+                font-style: normal;
+                font-size: 12px;
+                line-height: 14px;
+                color: #2B455C;
+                &:nth-child(1){
+                    border-right: 1px solid #9CD0FF;
+                    width: 33px;
+                    font-weight: 300;
+                    text-align: center;
+                }
+                &:nth-child(2){
+                    border-right: 1px solid #9CD0FF;
+                    width: 196px;
+                    font-weight: 300;
+                }
+                &:nth-last-child(1){
+                    width: 67px;
+                    font-weight: 400;
+                    text-align: center;
+                }
+            }
+            &:nth-child(1){
+                td{
+                    border: 1px solid #2E465C;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 14px;
+                    color: #2B455C;
+                }
+            }
+            &:nth-last-child(1){
+                td{
+                    border-bottom: 1px solid #2E465C;
+                }
+                
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,22 @@
+%dirText {
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 19px;
+    line-height: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.dir {
+    margin-top: 61px;
+    margin-left: 47px;
+    justify-content: space-around;
+    flex-direction: column;
+    display: flex;
+    border-radius: 2px;
+    height: $dH;
+    width: $cHdW;
+    background-color: $dirClr;
+    color: $dirTxtClr;
+    @extend %dirText;
+}
